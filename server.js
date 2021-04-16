@@ -7,7 +7,7 @@ const fileupload = require("express-fileupload");
 const MongoClient = require("mongodb").MongoClient;
 const ObjectId = require("mongodb").ObjectID;
 
-const PORT = 5000;
+const port = 5000;
 
 app.use(cors());
 app.use(bodyParser.json());
